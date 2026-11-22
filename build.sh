@@ -76,8 +76,8 @@ echo ""
 
 # ---- 准备构建上下文 ----
 # 源码 tarball + 配置文件
-SOURCE_TARBALL="/media/rd/SD2TB/soft-ubuntu/redis-stable.tar.gz"
-SOURCE_DIR="/media/rd/SD2TB/soft-ubuntu/redis-stable"
+SOURCE_TARBALL="./cache/redis-stable.tar.gz"
+SOURCE_DIR="./cache/redis-stable"
 STAGING_DIR="$SCRIPT_DIR/staging"
 
 rm -rf "$STAGING_DIR"

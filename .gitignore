@@ -1,5 +1,6 @@
 # 运行时数据（AOF/RDB 持久化文件）
 data/
+cache
 
 # 部署脚本生成的 auth 密码（敏感信息，禁止提交）
 .redis-env
